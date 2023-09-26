@@ -10,7 +10,7 @@ import com.crud.basico.crud.entity.Producto;
 @Repository
 public interface ProductoRepository extends JpaRepository<Producto, Long>{
 	
-	Optional<Producto> findByNombre(String nombre);
-	boolean existsByNombre(String nombre);
+	Optional<Producto> findByName(String nombre);
+	boolean existsByName(String nombre);
 
 }

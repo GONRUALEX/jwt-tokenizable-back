@@ -26,8 +26,8 @@ public class ProductoService {
 		return productoRepository.findById(id);
 	}
 	
-	public Optional<Producto> getByNombre(String nombre){
-		return productoRepository.findByNombre(nombre);
+	public Optional<Producto> getByNombre(String name){
+		return productoRepository.findByName(name);
 	}
 	
 	public void save(Producto producto) {
@@ -43,6 +43,6 @@ public class ProductoService {
 	}
 	
 	public boolean existsByNombre(String nombre) {
-		return productoRepository.existsByNombre(nombre);
+		return productoRepository.existsByName(nombre);
 	}
 }

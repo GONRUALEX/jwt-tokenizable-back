@@ -8,8 +8,10 @@ import com.crud.basico.crud.security.entity.Role;
 import com.crud.basico.crud.security.enums.RoleNombre;
 import com.crud.basico.crud.security.service.RoleService;
 
-//@Component
+@Component
 public class CreateRoles implements CommandLineRunner{
+
+
 
 	@Override
 	public void run(String... args) throws Exception {
@@ -17,9 +19,9 @@ public class CreateRoles implements CommandLineRunner{
 		
 	}
 
-/*
 
-	@Autowired
+
+	/*@Autowired
 	RoleService roleService;
 	
 	@Override
@@ -33,6 +35,7 @@ public class CreateRoles implements CommandLineRunner{
 		
 		
 	}
+*/
 
-	*/
+
 }
